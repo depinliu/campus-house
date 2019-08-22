@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+	width: 100%;
+	max-width: 90%;
+	margin: 0 auto;
+}
+#slider-box{
+  position:relative;
+	    width: 100%;
+    overflow: hidden;
+	max-height: 324px;
+}
+#slider-box ul{
+    height: 100%;
+    list-style: none;
+    width: 100%;
+    transition: 1s;
+}
+#slider-box li.active{
+     width: 84%;
+    height: 84%;
+    margin-top: 0;
+    opacity: 1;
+    position: relative;
+		float:left;
+}
+#slider-box li{
+	display: block;
+	line-height: 1.5;
+	float: left;
+	width: 3.4%;
+	font-size: 20px;
+  opacity: 0;
+  transition : all ease .5s;
+}
+#slider-box li dl{
+	height: 100%;
+}
+#slider-box li dt{
+	height: 85%;
+}
+#parent li img{
+	height:100%;
+}
+#checkbox-2{
+	position: absolute;
+	right: 3%;
+	top: 0%;
+	font-size: 165%;
+	text-align: center;
+	cursor: pointer;
+	z-index:99;
+}
+#checkbox-2:hover{
+	background-color: bisque;
+	color: #000;
+}
+#checkbox-2 img{
+	height:50px;
+	width:50px;
+}

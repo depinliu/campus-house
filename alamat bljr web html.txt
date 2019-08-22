@@ -1,0 +1,4 @@
+alamat belajar web: 
+http://www.w3schools.com/css/css3_transitions.asp
+https://codepen.io/search/pens?q=carousel%20js&limit=all&order=popularity&depth=everything&show_forks=false
+http://stackoverflow.com/questions/6048022/jquery-attrdisabled-disabled-not-working-in-chrome

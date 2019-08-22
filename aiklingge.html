@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="images/logo.jpg">
+		<title>Campus House | UNJ</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+    <script src="js/Myslider.js"></script>
+		<script src="js/scrol.js"></script>
+	</head>
+	<body id="top">
+  
+			<div class="header2 clearfix">
+					<ul class="clearfix">
+					<li class="active"><a href="#1">Home</a></li>
+					<li><a href="#2">Kost</a></li>
+					<li><a href="#5">Forum Bertanya</a></li>
+					<li><a href="#3">Kritik &amp; Saran</a></li>
+					<li><a href="#4">Kontak</a></li>
+				</ul>
+			</div>
+  	<div class="btop">
+    	<a href="#top"><img src="images/top.png"></a>
+    </div>
+		<div id="wrap">
+			<div class="header clearfix">
+				<ul class="clearfix">
+				<li><a href="biodata.html">Log In</a></li>
+				</ul>
+			</div>
+			<div class="nav clearfix">
+				<div class="gambar">
+					<img src="images/logo2.jpg" width = "90" height = "90">
+				</div>
+				<div class="kiri">
+					<p>Campus House<br>UNIVERSITAS NEGERI JAKARTA</p>
+				</div>
+				<div class="menu">
+					<ul class="clearfix">
+					<li class="active"><a href="#1">Home</a></li>
+					<li><a href="#2">Kost</a></li>
+					<li><a href="#5">Forum Bertanya</a></li>
+					<li><a href="#3">Kritik &amp; Saran</a></li>
+					<li><a href="#4">Kontak</a></li>
+				</ul>
+				</div>
+					
+			</div>
+      <div  id="1"></div>
+			<div class="welcome">
+				<marquee> Cara cepat cari sewa tempat tinggal, cari sesuai keinginan anda hanya di Campus House UNJ!!</marquee> 
+			</div>
+      <div class="isi2" id="2">
+				<h2>REKOMENDASI SEWA KOST</h2>
+        <div class="isi2wrap clearfix">
+          	<div class="tengah">
+				<div class="gambarkos"><img src="images/kos1.jpg" alt="Kamar Kos"></div>
+				<h3>Kos Kenangan</h3>
+				<span>Jl. Jatuh Cinta Gg. Mantan Pertama</span>
+				<table>
+					<tr>
+						<th>Harga</th>
+						<th>Tipe Kamar</th>
+						<th>Fasilitas</th>
+					</tr>
+					<tr>
+						<td>Rp. 500.000,-</td>
+						<td>Single (non-AC)</td>
+						<td>Kamar 3x4, Kasur, Lemari, Meja Belajar, Kamar mandi luar</td>
+					</tr>
+					<tr>
+						<td>Rp. 650.000,-</td>
+						<td>Single (AC)</td>
+						<td>Kamar 3x4, Kasur, Lemari, Meja Belajar, Kamar mandi luar, AC 1/2 PK</td>
+					</tr>
+					<tr>
+						<td>Rp. 1.600.000,-</td>
+						<td>Deluxe Single</td>
+						<td>Kamar 4x6, Kasur Queen-size, Lemari 2 Pintu, Meja Belajar, Sofa, Kamar mandi dalam, AC 2 PK</td>
+					</tr>
+					<tr>
+						<td>Rp. 900.000,-</td>
+						<td>Double (non-AC)</td>
+						<td>Kamar 4x6, 2x Kasur, Lemari, Meja Belajar, Kamar mandi luar</td>
+					</tr>
+					<tr>
+						<td>Rp. 1.100.000,-</td>
+						<td>Double (AC)</td>
+						<td>Kamar 4x6, 2x Kasur, Lemari, Meja Belajar, Kamar mandi luar, AC 2 PK</td>
+					</tr>
+				</table>
+			</div>
+        </div>
+			</div>
+			<div class="footer">
+				<p>This website is &copy;Copy Right by PTIK UNNJ 2015</p>
+			</div>
+		</div>
+	</body>
+<script>
+
+$(document).ready(function(){
+		$("#subm1").submit(function(){
+			var namaa = $(".namaa input").val();
+			var pertanyaan = $(".pertanyaan textarea").val();
+			
+			alert ("Terima kasih " + namaa +"\nPertanyaan anda : " + pertanyaan +  "\n\nTerkirim");
+		});
+		
+		$("#subm2").submit(function(){
+			var namaa2 = $(".nama2 input").val();
+			var asal = $(".asal input").val();
+			var kritik = $(".kritik textarea").val();
+			
+			alert ("Terima kasih " + namaa2 +"\nAsal " + asal + " \nKritikan dan saran : " + kritik +  "\n\nTelah terikirm\nTerima kasih sudah membantu membuat web ini jadi lebih baik");
+		});
+});
+</script>
+</html>

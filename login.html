@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="images/logo.jpg">
+		<title>Campus House | UNJ</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+    <script src="js/Myslider.js"></script>
+		<script src="js/scrol.js"></script>
+	</head>
+	<body id="top">
+  
+			<div class="header2 clearfix">
+					<ul class="clearfix">
+					<li class="active"><a href="#1">Home</a></li>
+					<li><a href="#2">Kost</a></li>
+					<li><a href="#5">Forum Bertanya</a></li>
+					<li><a href="#3">Kritik &amp; Saran</a></li>
+					<li><a href="#4">Kontak</a></li>
+				</ul>
+			</div>
+  	<div class="btop">
+    	<a href="#top"><img src="images/top.png"></a>
+    </div>
+		<div id="wrap">
+			<div class="header clearfix">
+				<ul class="clearfix">
+				<li><a href="biodata.html">Log In</a></li>
+				</ul>
+			</div>
+			<div class="nav clearfix">
+				<div class="gambar">
+					<img src="images/logo2.jpg" width = "90" height = "90">
+				</div>
+				<div class="kiri">
+					<p>Campus House<br>UNIVERSITAS NEGERI JAKARTA</p>
+				</div>
+				<div class="menu">
+					<ul class="clearfix">
+					<li class="active"><a href="#1">Home</a></li>
+					<li><a href="#2">Kost</a></li>
+					<li><a href="#5">Forum Bertanya</a></li>
+					<li><a href="#3">Kritik &amp; Saran</a></li>
+					<li><a href="#4">Kontak</a></li>
+				</ul>
+				</div>
+					
+			</div>
+      <div  id="1"></div>
+			
+      <div class="login clearfix">
+		<div class="form-header"> 
+<h1>Sign In</h1> 
+
+<div class="form container"> 
+<form> 
+<input type="text" name="username"> </input>
+<input type="password" name="password"> </input>
+<input id="sign-in" type="button" name="login" value="Sign In"> </input>
+</form>
+
+
+<div class="form-footer"> 
+<a href="#">Sign Up 
+	  
+	  </div>
+			</div>
+			<div class="footer">
+				<p>This website is &copy;Copy Right by PTIK UNNJ 2015</p>
+			</div>
+		</div>
+		</div>
+	</body>
+<script>
+
+$(document).ready(function(){
+		$("#subm1").submit(function(){
+			var namaa = $(".namaa input").val();
+			var pertanyaan = $(".pertanyaan textarea").val();
+			
+			alert ("Terima kasih " + namaa +"\nPertanyaan anda : " + pertanyaan +  "\n\nTerkirim");
+		});
+		
+		$("#subm2").submit(function(){
+			var namaa2 = $(".nama2 input").val();
+			var asal = $(".asal input").val();
+			var kritik = $(".kritik textarea").val();
+			
+			alert ("Terima kasih " + namaa2 +"\nAsal " + asal + " \nKritikan dan saran : " + kritik +  "\n\nTelah terikirm\nTerima kasih sudah membantu membuat web ini jadi lebih baik");
+		});
+});
+</script>
+</html>

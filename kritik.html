@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="images/logooo.png">
+		<title>Campus House | UNJ</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+    <script src="js/Myslider.js"></script>
+		<script src="js/scrol.js"></script>
+	</head>
+	<body id="top">
+  
+			
+  	<div class="btop">
+    	<a href="#top"><img src="images/top.png"></a>
+    </div>
+		<div id="wrap">
+			<div class="header clearfix">
+				<ul class="clearfix">
+				
+				<li><a href="login.html"><img src="images/icon/admin3.png"><p>Akun Saya</p></a>
+					<ul>
+						<li><form> 
+							<input type="text" name="username"> </input>
+							<input type="password" name="password"> </input>
+							<input id="sign-in" type="button" name="login" value="Sign In"> </input>
+							</form>
+						</li>
+					</ul>
+				</li>
+				
+				
+				</ul>
+			</div>
+			<div class="nav clearfix">
+				<div class="gambar clearfix">
+					<img src="images/logo.png" width = "90" height = "90">
+				</div>
+				<div class="kiri clearfix">
+					<p>Campus House<br>UNIVERSITAS NEGERI JAKARTA</p>
+				</div>
+				<div class="menu clearfix">
+					<ul class="clearfix">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Kost</a>
+						<ul>
+							<li><a href="#">Pria</a></li>
+							<li><a href="#">Wanita</a></li>
+						</ul>
+					</li>
+					<li class="active"><a href="kritik.html">Hubungi Kami</a></li>
+				</ul>
+				</div>
+				
+					
+			</div>
+      <div  id="1"></div>
+
+	  
+			
+			<div class="isi2">
+				
+        <div class="isi2wrap clearfix">
+		
+          		
+      <div class="isi2">
+				<h2 id="3" style="background-color:gray; margin:5px 0; color:white; font-weight:bold;border:1px solid white;">Hubungi Kami</h2>
+        <div class="isi2wrap clearfix">
+          <div class="bgWhite">
+          	<div class="form">
+            	<form id="subm2">
+              	<dl>
+                	<dt>Nama</dt>
+                  <dd class="nama2"><input type="text" placeholder="Nama Lengkap ..."></dd>
+                	<dt>Email Anda</dt>
+                  <dd class="asal"><input type="text" placeholder="@gmail.com ... "></dd>
+                	<dt>Pesan</dt>
+                  <dd class="kritik"><textarea placeholder="Masukkan Pesan ..."></textarea></dd>
+				  				  <img src="images/capcha.gif" class="mgB10">
+				  <input class="capcha" type="text" placeholder="Masukan capcha">
+                	<button type="submit">Submit</button>
+                  <button type="reset">Reset</button>
+                </dl>
+              </form>
+            </div>
+          </div>
+        </div>
+			</div>
+        </div>
+			</div>
+    
+      <div class="isi2">
+				<h2 id="4" style="background-color:gray; margin:5px 0; color:white; font-weight:bold;border:1px solid white;">Kontak</h2>
+        <div class="isi2wrap clearfix">
+          <div class="bgWhite">
+          	<div class="form gg">
+            	<p>Alamat : Jl. Pemuda 3B</p>
+            	<p>Telp : 081929055398</p>
+            	<p>Social Media :<br>
+              	<ul class="clearfix sosmed">
+                	<li><a href="#"><img src="images/icon/facebook.png"></a></li>
+					<li><a href="#"><img src="images/icon/twitter.png"></a></li>
+                	<li><a href="#"><img src="images/icon/google.png"></a></li>
+                </ul>
+              
+              </p>
+            </div>
+          </div>
+        </div>
+			</div>
+			<div class="footer">
+				<p>This website is &copy;Copy Right by PTIK UNJ 2015</p>
+			</div>
+		</div>
+	</body>
+<script>
+
+$(document).ready(function(){
+		$("#subm1").submit(function(){
+			var namaa = $(".namaa input").val();
+			var pertanyaan = $(".pertanyaan textarea").val();
+			
+			alert ("Terima kasih " + namaa +"\nPertanyaan anda : " + pertanyaan +  "\n\nTerkirim");
+		});
+		
+		$("#subm2").submit(function(){
+			var namaa2 = $(".nama2 input").val();
+			var asal = $(".asal input").val();
+			var kritik = $(".kritik textarea").val();
+			
+			alert ("Terima kasih " + namaa2 +"\nAsal " + asal + " \nKritikan dan saran : " + kritik +  
+			"\n\nTelah terikirm\nTerima kasih sudah membantu membuat web ini jadi lebih baik");
+		});
+});
+</script>
+</html>
